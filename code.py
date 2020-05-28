@@ -39,11 +39,11 @@ while (i<5):
 			i = i + 1
 			p = p + 10
 			
-		if comp_choice == "Paper":
+		elif comp_choice == "Paper":
 			print("Draw\n")
 			i = i + 1
 			
-		if comp_choice == "Scissor":
+		elif comp_choice == "Scissor":
 			print("You Lose\n")
 			i = i + 1
 			c = c + 10
@@ -55,12 +55,12 @@ while (i<5):
 			i = i + 1
 			c = c + 10
 			
-		if comp_choice == "Paper":
+		elif comp_choice == "Paper":
 			print("You Win\n")
 			i = i + 1
 			p = p + 10
 			
-		if comp_choice == "Scissor":
+		elif comp_choice == "Scissor":
 			print("Draw\n")
 			i = i + 1
 			
